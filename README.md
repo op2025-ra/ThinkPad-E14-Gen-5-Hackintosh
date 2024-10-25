@@ -9,7 +9,7 @@ Lenovo ThinkPad E14 Gen 5
 
 A compatible USB drive (at least 16GB)
 
-## A macOS installer (Follow Dortina guide, Online recovery installer) <a id='[ssFeatures](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos)'></a>
+## A macOS installer (Follow Dortina guide, Online recovery installer) <a id='[ssA macOS installer (Follow Dortina guide, Online recovery installer)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos)'></a>
 
 Whats working
 
