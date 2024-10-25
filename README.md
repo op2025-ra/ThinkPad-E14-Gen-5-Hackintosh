@@ -39,6 +39,9 @@ SMBIOS	MacBookPro16,3 (serial number generated with GenSMBIOS)	✅
 
 OS	macOS Sonoma 14.5 ✅
 
+
+
+
 Whats not working
 
 Wifi (Realtek 8852be) ❌ (Im using Tp-link TL-WN725N Usb wifi which comes with latest OSX drivers)
@@ -52,6 +55,10 @@ Virtualization (Not supported on AMD, Not recommended using Virtual-box v6.1) �
 Sleep / Wake ❌
 
 
+
+
+
+
 BIOS SETTINGS:
 
 Secureboot OFF
@@ -63,9 +70,16 @@ Increase Vram for display (2GB minimum)
 Disable Fingerprint in IO section.
 
 
+
+
+
 IMPORTANT NOTES DONT SKIP!!
 
 When instalation is Finished and its booted, Download propertree then open the Config.plist from USB>EFI>OC>config.plist, Go to Kernal then ADD section, Find Nooted-red.kext (It shounld be no. 5) then enable it making it True. Enableing it now beacusenot recommended duruing installation
+
+
+
+
 
 
 
@@ -74,6 +88,11 @@ Credits
 Apple for macOS.
 
 Dortania For great and detailed guides.
+
+
+
+
+
 
 Legal Disclaimer
 
