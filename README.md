@@ -17,7 +17,7 @@ Whats working
 
 CPU	AMD Ryzen 5 7530U 6 Cores / 16 Threads	✅ (Patched with AMD patches.plist)
 
-AMD Cpu management ✅ (Download AMD Power Gadget: https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.2f1/AMD.Power.Gadget.app.zip
+AMD Cpu management ✅ (Download AMD Power Gadget to control CPU)
 
 iGPU	AMD Radeon Graphics 2GB	✅ (Via Nooted-red) (Make sure to increse Vram in bios atlest 2 GB (BIOS->IO->dispay->vmram)
 
@@ -73,7 +73,17 @@ Credits
 
 Apple for macOS.
 
-Acidanthera for OpenCore and all the lovely hackintosh work.
-
 Dortania For great and detailed guides.
+
+Legal Disclaimer
+
+This material is provided solely for educational and testing purposes. The author does not condone or encourage any illegal activities, including but not limited to the violation of software license agreements, terms of service, or copyright laws. Building or using a Hackintosh — a non-Apple computer running macOS — may violate Apple's End User License Agreement (EULA) and could be illegal in certain jurisdictions.
+
+By following this material, you understand that you assume full responsibility for any legal consequences, technical issues, or damages that may arise, including but not limited to violations of Apple's terms of service, potential breaches of applicable laws, and the invalidation of warranties. The author is not liable for any losses, damages, legal actions, or technical malfunctions resulting from the use of this guide.
+
+The author explicitly does not endorse or encourage the illegal use of macOS or other software in any way that infringes upon intellectual property rights, terms of service, or other legal agreements. The material is intended to be used for testing in environments where such use is permitted.
+
+Before proceeding, users are strongly advised to consult with a legal professional to understand the legality of building or using a Hackintosh in their specific region or jurisdiction. All actions undertaken by the reader are done at their own risk and discretion.
+
+By using this material, you agree that any risks involved are your own responsibility, and you indemnify the author from any legal or financial consequences that may arise from your actions.
 
