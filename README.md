@@ -1,4 +1,5 @@
 # ThinkPad-E14-Gen-5-Hackintosh
+
 macOS Sequoia on Lenovo Thinkpad E14 Gen 5 21JRS00U00 - AMD Ryzen 7530U W/ Vega 7 (Barcelo refresh GPU)
 
 
@@ -13,7 +14,7 @@ A compatible USB drive (at least 16GB)
 
 Once your USB installer is ready copy the EFI folder to USB. (CHECK REASESES TO DOWNLOAD EFI)
 
-#Whats working
+# Whats working
 
 CPU	AMD Ryzen 5 7530U 6 Cores / 16 Threads	✅ (Patched with AMD patches.plist)
 
@@ -42,7 +43,7 @@ OS	macOS Sonoma 14.5 ✅
 
 
 
-#  Whats not working
+# Whats not working
 
 Wifi (Realtek 8852be) ❌ (Im using Tp-link TL-WN725N Usb wifi which comes with latest OSX drivers)
 
@@ -59,7 +60,7 @@ Sleep / Wake ❌
 
 
 
-#BIOS SETTINGS:
+# BIOS SETTINGS:
 
 Secureboot OFF
 
@@ -73,7 +74,7 @@ Disable Fingerprint in IO section.
 
 
 
-#IMPORTANT NOTES DONT SKIP!!
+# IMPORTANT NOTES DONT SKIP!!
 
 When instalation is Finished and its booted, Download propertree then open the Config.plist from USB>EFI>OC>config.plist, Go to Kernal then ADD section, Find Nooted-red.kext (It shounld be no. 5) then enable it making it True. Enableing it now beacusenot recommended duruing installation
 
@@ -83,7 +84,7 @@ When instalation is Finished and its booted, Download propertree then open the C
 
 
 
-#Credits
+# Credits
 
 Apple for macOS.
 
@@ -94,7 +95,7 @@ Dortania For great and detailed guides.
 
 
 
-#Legal Disclaimer
+# Legal Disclaimer
 
 This material is provided solely for educational and testing purposes. The author does not condone or encourage any illegal activities, including but not limited to the violation of software license agreements, terms of service, or copyright laws. Building or using a Hackintosh — a non-Apple computer running macOS — may violate Apple's End User License Agreement (EULA) and could be illegal in certain jurisdictions.
 
