@@ -19,7 +19,7 @@ CPU	AMD Ryzen 5 7530U 6 Cores / 16 Threads	✅ (Patched with AMD patches.plist)
 
 AMD Cpu management ✅ (Download AMD Power Gadget to control CPU)
 
-iGPU	AMD Radeon Graphics 2GB	✅ (Via Nooted-red) (Make sure to increse Vram in bios atlest 2 GB (BIOS->IO->dispay->vmram)
+iGPU	AMD Radeon Graphics 2GB	✅ (Via Nooted-red) (Make sure to increse Vram in bios atlest 2 GB (BIOS->IO->dispay->vmram) READ Important notes down below!
 
 NVMe	Samsung SSD 256GB for macOS / WD 500GB SSD	✅
 
@@ -65,7 +65,7 @@ Disable Fingerprint in IO section.
 
 IMPORTANT NOTES DONT SKIP!!
 
-When instalation is Finished and its booted, Download propertree then open the Config.plist from USB>EFI>OC>config.plist, Go to Kernal then ADD section, Find Nooted-red.kext then enable it making it True. (This will enable iGPU)
+When instalation is Finished and its booted, Download propertree then open the Config.plist from USB>EFI>OC>config.plist, Go to Kernal then ADD section, Find Nooted-red.kext (It shounld be no. 5) then enable it making it True. Enableing it now beacusenot recommended duruing installation
 
 
 
