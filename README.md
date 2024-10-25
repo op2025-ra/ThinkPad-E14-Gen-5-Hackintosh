@@ -18,7 +18,7 @@ Now put both online installer and EFI folder to USB. (CHECK REASESES TO DOWNLOAD
 
 # Whats working
 
-CPU	AMD Ryzen 5 7530U 6 Cores / 16 Threads	✅ (Patched with AMD patches.plist)
+CPU	AMD Ryzen 5 7530U 6 Cores / 12 Threads	✅ (Patched with AMD patches.plist)
 
 AMD Cpu management ✅ (Download AMD Power Gadget to control CPU)
 
