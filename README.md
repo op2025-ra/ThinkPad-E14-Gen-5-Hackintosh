@@ -76,7 +76,12 @@ Disable Fingerprint in IO section.
 
 # IMPORTANT NOTES DONT SKIP!!
 
-When installation is Finished and booted into macOS, Download propertree then open the Config.plist from USB>EFI>OC>config.plist, Go to Kernal then ADD section, Find Nooted-red.kext (It shounld be no. 5) then enable it making it True.  Enableing it now beacuse not recommended duruing installation.
+1. When installation is Finished and booted into macOS, Download propertree then open the Config.plist from USB>EFI>OC>config.plist, Go to Kernal then ADD section, Find Nooted-red.kext (It shounld be no. 5) then enable it making it True.  Enableing it now beacuse not recommended duruing installation.
+
+2. Now Copy the EFI folder on the USB to EFI partition of your macOS drive.(you need to mount EFI of your Drive where u installed mac os). We do this step to boot staright from drive without USB.
+
+But for some reason if ur bios dont recognize Boot.efi in the macOS drive EFI partition, then it wont boot(Common issue in newer thinkpad bios) In this situaltion u can use EasyUefi on windows to make a new boot entery in BIOS there u can choose BOOT.efi which u will find inside macOSdrive efi partition,(EFI->BOOT->BOOT.efi) select it and make a new entry.
+
 
 
 
