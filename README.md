@@ -11,11 +11,13 @@ A compatible USB drive (at least 16GB)
 
 ## A macOS installer (Follow Dortina guide, Online recovery installer) <a id='[ss A macOS installer (Follow Dortina guide, Online recovery installer)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos)'></a>
 
+Once your USB installer is ready copy the EFI folder to USB. (CHECK REASESES TO DOWNLOAD EFI)
+
 Whats working
 
 CPU	AMD Ryzen 7 7530U 6 Cores / 16 Threads	✅ (Patched with AMD patches.plist)
 
-AMD Cpu management ✅ (Download  ## AMD Power Gadget <a id='[ssFeatures](https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.2f1/AMD.Power.Gadget.app.zip)'></a> )
+AMD Cpu management ✅ (Download AMD Power Gadget: https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.2f1/AMD.Power.Gadget.app.zip
 
 iGPU	AMD Radeon Graphics 2GB	✅ (Via Nooted-red) (Make sure to increse Vram in bios atlest 2 GB (BIOS->IO->dispay->vmram)
 
@@ -31,11 +33,11 @@ Touchpad ✅
 
 Trackpoint ✅
 
-HDMI port ✅
+HDMI port ✅ 
 
 SMBIOS	MacBookPro16,3 (serial number generated with GenSMBIOS)	✅
 
-OS	macOS Sonoma 14.5
+OS	macOS Sonoma 14.5 ✅
 
 Whats not working
 
@@ -43,9 +45,35 @@ Wifi (Realtek 8852be) ❌ (Im using Tp-link TL-WN725N Usb wifi which comes with 
 
 Bluetooth ❌
 
+Fingerprint ❌
+
 Virtualization (Not supported on AMD, Not recommended using Virtual-box v6.1) ❌
 
 Sleep / Wake ❌
 
 
+BIOS SETTINGS:
+
+Secureboot OFF
+
+Device Guard Disabled
+
+Increase Vram for display (2GB minimum)
+
+Disable Fingerprint in IO section.
+
+
+IMPORTANT NOTES DONT SKIP!!
+
+When instalation is Finished and its booted, Download propertree then open the Config.plist from USB>EFI>OC>config.plist, Go to Kernal then ADD section, Find Nooted-red.kext then enable it making it True. (This will enable iGPU)
+
+
+
+Credits
+
+Apple for macOS.
+
+Acidanthera for OpenCore and all the lovely hackintosh work.
+
+Dortania For great and detailed guides.
 
