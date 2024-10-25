@@ -15,7 +15,7 @@ Once your USB installer is ready copy the EFI folder to USB. (CHECK REASESES TO 
 
 Whats working
 
-CPU	AMD Ryzen 7 7530U 6 Cores / 16 Threads	✅ (Patched with AMD patches.plist)
+CPU	AMD Ryzen 5 7530U 6 Cores / 16 Threads	✅ (Patched with AMD patches.plist)
 
 AMD Cpu management ✅ (Download AMD Power Gadget: https://github.com/trulyspinach/SMCAMDProcessor/releases/download/0.7.2f1/AMD.Power.Gadget.app.zip
 
