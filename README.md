@@ -42,7 +42,7 @@ OS	macOS Sonoma 14.5 ✅
 
 
 
-#Whats not working
+# A Whats not working
 
 Wifi (Realtek 8852be) ❌ (Im using Tp-link TL-WN725N Usb wifi which comes with latest OSX drivers)
 
