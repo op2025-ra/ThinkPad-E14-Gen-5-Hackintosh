@@ -76,7 +76,7 @@ Disable Fingerprint in IO section.
 
 # IMPORTANT NOTES DONT SKIP!!
 
-When instalation is Finished and its booted, Download propertree then open the Config.plist from USB>EFI>OC>config.plist, Go to Kernal then ADD section, Find Nooted-red.kext (It shounld be no. 5) then enable it making it True. Enableing it now beacusenot recommended duruing installation
+When installation is Finished and its booted, Download propertree then open the Config.plist from USB>EFI>OC>config.plist, Go to Kernal then ADD section, Find Nooted-red.kext (It shounld be no. 5) then enable it making it True.  Enableing it now beacuse not recommended duruing installation.
 
 
 
