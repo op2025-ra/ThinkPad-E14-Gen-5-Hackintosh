@@ -53,7 +53,6 @@ Fingerprint ❌
 
 Virtualization (Not supported on AMD, Not recommended using Virtual-box v6.1) ❌
 
-Sleep / Wake ❌
 
 
 
