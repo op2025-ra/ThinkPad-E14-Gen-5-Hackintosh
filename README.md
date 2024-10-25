@@ -12,7 +12,9 @@ A compatible USB drive (at least 16GB)
 
 ## A macOS installer (Follow Dortina guide, Online recovery installer) <a id='[ss A macOS installer (Follow Dortina guide, Online recovery installer)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos)'></a>
 
-Once your USB installer is ready copy the EFI folder to USB. (CHECK REASESES TO DOWNLOAD EFI)
+Use rufus to format disk. Make Boot selection = non bootable.
+
+Now put both online installer and EFI folder to USB. (CHECK REASESES TO DOWNLOAD EFI)
 
 # Whats working
 
@@ -20,7 +22,7 @@ CPU	AMD Ryzen 5 7530U 6 Cores / 16 Threads	✅ (Patched with AMD patches.plist)
 
 AMD Cpu management ✅ (Download AMD Power Gadget to control CPU)
 
-iGPU	AMD Radeon Graphics 2GB	✅ (Via Nooted-red) (Make sure to increse Vram in bios atlest 2 GB (BIOS->IO->dispay->vmram) READ Important notes down below!
+iGPU	AMD Radeon Graphics 2GB	✅ (Via Nooted-red) (Make sure to increse Vram in bios atlest 2 GB (BIOS->IO->dispay->frame buffer)
 
 NVMe	Samsung SSD 256GB for macOS / WD 500GB SSD	✅
 
@@ -38,7 +40,6 @@ HDMI port ✅
 
 SMBIOS	MacBookPro16,3 (serial number generated with GenSMBIOS)	✅
 
-OS	macOS Sonoma 14.5 ✅
 
 
 
@@ -69,15 +70,10 @@ Increase Vram for display (2GB minimum)
 
 Disable Fingerprint in IO section.
 
+After installation:
 
+Copy the EFI folder on the USB to EFI partition of your macOS drive.(you need to mount EFI of your Drive where u installed mac os). We do this step to boot staright from drive without USB.
 
-
-
-# IMPORTANT NOTES DONT SKIP!!
-
-1. When installation is Finished and booted into macOS, Download propertree then open the Config.plist from USB>EFI>OC>config.plist, Go to Kernal then ADD section, Find Nooted-red.kext (It shounld be no. 5) then enable it making it True.  Enableing it now beacuse not recommended duruing installation.
-
-2. Now Copy the EFI folder on the USB to EFI partition of your macOS drive.(you need to mount EFI of your Drive where u installed mac os). We do this step to boot staright from drive without USB.
 
 But for some reason if ur bios dont recognize Boot.efi in the macOS drive EFI partition, then it wont boot(Common issue in newer thinkpad bios) In this situaltion u can use EasyUefi on windows to make a new boot entery in BIOS there u can choose BOOT.efi which u will find inside macOSdrive efi partition,(EFI->BOOT->BOOT.efi) select it and make a new entry.
 
