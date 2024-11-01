@@ -1,6 +1,6 @@
 # ThinkPad-E14-Gen-5-Hackintosh
 
-macOS Sequoia on Lenovo Thinkpad E14 Gen 5 21JRS00U00 - AMD Ryzen 7530U W/ Vega 7 (Barcelo refresh GPU)
+macOS Sequoia on Lenovo Thinkpad E14 Gen 5 21JRS00U00 - AMD Ryzen 7530U with/ Vega 7
 
 
 
@@ -13,8 +13,6 @@ A compatible USB drive (at least 16GB)
 ## A macOS installer (Follow Dortina guide, Online recovery installer) <a id='[ss A macOS installer (Follow Dortina guide, Online recovery installer)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos)'></a>
 
 Use rufus to format disk. Make Boot selection = non bootable.
-
-Now put both online installer and EFI folder to USB. (CHECK REASESES TO DOWNLOAD EFI)
 
 # Whats working
 
@@ -32,7 +30,7 @@ Ethernet	Realtek RTL8168/8111	✅
 
 Brightness Keys / Volume Keys ✅
 
-Touchpad ✅
+Touchpad ✅ 
 
 Trackpoint ✅
 
@@ -52,7 +50,6 @@ Bluetooth ❌
 
 Fingerprint ❌
 
-Virtualization ❌ (Not supported on AMD, Not recommended using Virtual-box v6.1) 
 
 
 
@@ -69,14 +66,6 @@ Device Guard Disabled
 Set frame buffer in display (2GB minimum)
 
 Disable Fingerprint in IO section.
-
-After installation:
-
-Copy the EFI folder on the USB to EFI partition of your macOS drive.(you need to mount EFI of your Drive where u installed mac os). We do this step to boot staright from drive without USB. But for some reason if ur bios dont recognize Boot.efi in the macOS drive EFI partition, In this situaltion you can use EasyUefi on windows to make a new boot entery in BIOS there u can choose BOOT.efi which u will find inside macOSdrive efi partition,(EFI->BOOT->BOOT.efi) select it and make a new entry.
-
-
-
-
 
 
 
